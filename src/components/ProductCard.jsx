@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { Card, CardContent } from './ui/Card'
+import { formatCurrencyNGN } from '../data/data'
 
 function ProductCard({ 
   id = "1",
@@ -10,10 +11,6 @@ function ProductCard({
   image = "/api/placeholder/200/200",
   itemsLeft 
 }) {
-  const formatPrice = (price) => {
-    return `₦ ${price.toLocaleString()}`
-  }
-
   const progressPercentage = typeof itemsLeft === "number" ? 
     Math.max(0, Math.min(100, (itemsLeft / 100) * 100)) : 0
 
@@ -37,11 +34,11 @@ function ProductCard({
             {title}
           </div>
           <div className="font-bold text-gray-900">
-            {formatPrice(price)}
+            {formatCurrencyNGN(price)}
           </div>
           {oldPrice && (
             <div className="text-xs text-gray-500 line-through">
-              {formatPrice(oldPrice)}
+              {formatCurrencyNGN(oldPrice)}
             </div>
           )}
           {typeof itemsLeft === "number" && (
