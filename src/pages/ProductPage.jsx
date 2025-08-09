@@ -10,16 +10,28 @@ function ProductPage() {
       <div className="grid grid-cols-2 gap-8">
         {/* Product Images */}
         <div>
-          <div className="bg-gray-200 h-96 rounded-lg flex items-center justify-center mb-4">
-            <span className="text-gray-500 text-8xl">📱</span>
-          </div>
-          <div className="grid grid-cols-4 gap-2">
-            {Array.from({ length: 4 }, (_, i) => (
-              <div key={i} className="bg-gray-200 h-20 rounded flex items-center justify-center">
-                <span className="text-2xl">📱</span>
+                  {/* Product Images */}
+        <div className="lg:col-span-1">
+          <div className="space-y-4">
+            {/* Main Image */}
+            <div className="w-full h-96 bg-gray-100 rounded-lg flex items-center justify-center">
+              <img src="/api/placeholder/400/400" alt="Product" className="max-w-full max-h-full object-contain" />
+            </div>
+            
+            {/* Thumbnail Images */}
+            <div className="flex space-x-2">
+              <div className="w-16 h-16 bg-gray-100 rounded border cursor-pointer">
+                <img src="/api/placeholder/60/60" alt="Thumbnail" className="w-full h-full object-cover rounded" />
               </div>
-            ))}
+              <div className="w-16 h-16 bg-gray-100 rounded border cursor-pointer">
+                <img src="/api/placeholder/60/60" alt="Thumbnail" className="w-full h-full object-cover rounded" />
+              </div>
+              <div className="w-16 h-16 bg-gray-100 rounded border cursor-pointer">
+                <img src="/api/placeholder/60/60" alt="Thumbnail" className="w-full h-full object-cover rounded" />
+              </div>
+            </div>
           </div>
+        </div>
         </div>
 
         {/* Product Details */}
