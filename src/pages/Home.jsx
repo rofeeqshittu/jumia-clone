@@ -121,13 +121,200 @@ function Home() {
           </div>
 
           {/* Category Grid */}
-          <div className="grid grid-cols-6 gap-4">
+          <div className="grid grid-cols-6 gap-4 mb-6">
             <CategoryCard title="Phones & Tablets" image="/api/placeholder/150/150" />
             <CategoryCard title="TV & Audio" image="/api/placeholder/150/150" />
             <CategoryCard title="Beauty Must Have" image="/api/placeholder/150/150" />
             <CategoryCard title="Appliances" image="/api/placeholder/150/150" />
             <CategoryCard title="Generators & Inverters" image="/api/placeholder/150/150" />
             <CategoryCard title="Fashion" image="/api/placeholder/150/150" />
+          </div>
+
+          {/* Kids Corner Deals */}
+          <div className="bg-white border rounded-lg p-4 mb-6">
+            <div className="flex justify-between items-center mb-4">
+              <h2 className="text-xl font-bold text-gray-800">Kids Corner Deals</h2>
+              <Link to="/category/kids" className="text-orange-500 text-sm hover:underline">See All →</Link>
+            </div>
+            
+            <div className="grid grid-cols-6 gap-4">
+              <KidsProduct 
+                title="Girls One Shoulder Princess..."
+                price="₦ 20,753"
+                originalPrice="₦ 31,678"
+                discount="-35%"
+                image="/api/placeholder/150/150"
+              />
+              <KidsProduct 
+                title="Tanny Kid's Jumping Ladybug..."
+                price="₦ 29,000"
+                originalPrice=""
+                discount=""
+                image="/api/placeholder/150/150"
+              />
+              <KidsProduct 
+                title="12 Inches LCD Learning..."
+                price="₦ 6,300"
+                originalPrice="₦ 12,000"
+                discount="-48%"
+                image="/api/placeholder/150/150"
+              />
+              <KidsProduct 
+                title="Defacto Girl Special Collection..."
+                price="₦ 3,000"
+                originalPrice="₦ 10,395"
+                discount="-71%"
+                image="/api/placeholder/150/150"
+              />
+              <KidsProduct 
+                title="None Flying Drone & Radio..."
+                price="₦ 17,999"
+                originalPrice=""
+                discount=""
+                image="/api/placeholder/150/150"
+              />
+              <KidsProduct 
+                title="Kids Household Playset..."
+                price="₦ 9,499"
+                originalPrice="₦ 9,999"
+                discount="-5%"
+                image="/api/placeholder/150/150"
+              />
+            </div>
+          </div>
+
+          {/* Power Boost Deals */}
+          <div className="bg-white border rounded-lg p-4 mb-6">
+            <div className="flex justify-between items-center mb-4">
+              <h2 className="text-xl font-bold text-gray-800">Power Boost Deals</h2>
+              <Link to="/category/power" className="text-orange-500 text-sm hover:underline">See All →</Link>
+            </div>
+            
+            <div className="grid grid-cols-6 gap-4">
+              <PowerProduct 
+                title="Ace Elec 66W Power Bank..."
+                price="₦ 13,412"
+                badge="20000mAh"
+                image="/api/placeholder/150/150"
+              />
+              <PowerProduct 
+                title="Ace Elec 20000 MAh Ultra..."
+                price="₦ 7,294"
+                badge="ACE ELEC"
+                image="/api/placeholder/150/150"
+              />
+              <PowerProduct 
+                title="Haier Thermocool GEN..."
+                price="₦ 565,800"
+                badge="20000W"
+                image="/api/placeholder/150/150"
+              />
+              <PowerProduct 
+                title="Senwei 1.8kva Ecology..."
+                price="₦ 158,990"
+                discount="-12%"
+                image="/api/placeholder/150/150"
+              />
+              <PowerProduct 
+                title="itel PowerPulse 20000mah..."
+                price="₦ 15,250"
+                discount="-86%"
+                badge="Hot"
+                image="/api/placeholder/150/150"
+              />
+              <PowerProduct 
+                title="EASYPIE EasyPie 2000..."
+                price="₦ 7,392"
+                discount="-24%"
+                image="/api/placeholder/150/150"
+              />
+            </div>
+          </div>
+
+          {/* Jumia Bar */}
+          <div className="bg-white border rounded-lg p-4 mb-6">
+            <div className="flex justify-between items-center mb-4">
+              <h2 className="text-xl font-bold text-gray-800">Jumia Bar</h2>
+              <Link to="/category/bar" className="text-orange-500 text-sm hover:underline">See All →</Link>
+            </div>
+            
+            <div className="grid grid-cols-6 gap-4">
+              <BarProduct 
+                title="Black & White Scotch Whisky..."
+                price="₦ 9,999"
+                originalPrice="₦ 10,999"
+                discount="-9%"
+                image="/api/placeholder/150/150"
+              />
+              <BarProduct 
+                title="Martini Asti Spumante Sweet..."
+                price="₦ 11,440"
+                originalPrice="₦ 15,584"
+                discount="-27%"
+                image="/api/placeholder/150/150"
+              />
+              <BarProduct 
+                title="Jameson Irish Whiskey..."
+                price="₦ 20,336"
+                originalPrice="₦ 22,369"
+                discount="-9%"
+                image="/api/placeholder/150/150"
+              />
+              <BarProduct 
+                title="Jameson Black Barrel 70cl"
+                price="₦ 33,894"
+                originalPrice="₦ 37,384"
+                discount="-9%"
+                image="/api/placeholder/150/150"
+              />
+              <BarProduct 
+                title="Baileys Original Irish Cream..."
+                price="₦ 18,158"
+                originalPrice="₦ 19,974"
+                discount="-9%"
+                image="/api/placeholder/150/150"
+              />
+              <BarProduct 
+                title="Bombay Sapphire London..."
+                price="₦ 15,999"
+                originalPrice="₦ 19,359"
+                discount="-17%"
+                image="/api/placeholder/150/150"
+              />
+            </div>
+          </div>
+
+          {/* Jumia Nigeria Description */}
+          <div className="bg-white border rounded-lg p-6 mb-6">
+            <h2 className="text-xl font-bold text-gray-800 mb-4">Jumia Nigeria - Nigeria's No. 1 Shopping Destination</h2>
+            
+            <div className="space-y-4 text-gray-700">
+              <div>
+                <h3 className="font-semibold text-lg mb-2">Shop for Everything You Need on Jumia Nigeria</h3>
+                <p className="text-sm leading-relaxed">
+                  Jumia Nigeria is the largest online shopping website in Nigeria. We offer a platform where customers in any part of Nigeria can find and shop for all they need in one online store and that platform is the Jumia website. On the Jumia mobile app or website, you can shop from the comfort of your home or office and get everything delivered fast without you having to stress or move an inch. Be it <strong>fashion, electronics, mobile phones, computers</strong> or your everyday <strong>groceries</strong> you can get everything you need on Jumia online store.
+                </p>
+              </div>
+              
+              <p className="text-sm leading-relaxed">
+                Have you used the Jumia online store today? Shop now on Jumia to enjoy a seamless <Link to="#" className="text-blue-500 hover:underline">online shopping experience</Link>. With fast delivery, free returns, and flexible payment options, you are certain to enjoy the convenience of <strong>shopping online</strong>.
+              </p>
+              
+              <div>
+                <h3 className="font-semibold text-lg mb-2">Shop for Original and Quality Items at The Best Prices</h3>
+                <p className="text-sm leading-relaxed">
+                  Jumia Nigeria prides itself in giving the best prices and the best quality of products you can find anywhere in the country. Our strong partnership with top brands like <strong>Oraimo, Samsung, Infinix, Xiaomi, Diageo, Tecno, Adidas, Nike, Trendyol</strong>, etc. guarantees our customers the cheapest prices on original brand products. Beyond that, customers also have exclusive access to the latest product released by these top brands. If you enjoy exclusivity, the <Link to="#" className="text-blue-500 hover:underline">Jumia Official Store</Link> is the right place for you. On the Jumia official stores, you can experience a wide range of amazing products. You can also enjoy huge offers on brand days that come with heavy discounts on various products ranging from mobile phones to drinks, clothing items, sneakers, and many more!
+                </p>
+              </div>
+              
+              <p className="text-sm leading-relaxed">
+                Aside these major events, we also have Ramadan sales, Easter sales, Christmas sales and other seasonal celebrations we make sure our customers enjoy on Jumia.
+              </p>
+              
+              <p className="text-sm">
+                <Link to="#" className="text-blue-500 hover:underline">Shop now and enjoy unlimited offers, discounts and the best online shopping experience!</Link>
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -185,6 +372,77 @@ function CategoryCard({ title, image }) {
         <img src={image} alt={title} className="rounded" />
       </div>
       <h3 className="text-sm font-medium">{title}</h3>
+    </div>
+  )
+}
+
+// Kids Product Component
+function KidsProduct({ title, price, originalPrice, discount, image }) {
+  return (
+    <div className="bg-white border rounded p-3 hover:shadow-md cursor-pointer">
+      <div className="relative">
+        <div className="w-full h-32 bg-gray-100 rounded mb-2 flex items-center justify-center">
+          <img src={image} alt={title} className="max-w-full max-h-full object-contain" />
+        </div>
+        {discount && (
+          <div className="absolute top-2 left-2 bg-orange-500 text-white text-xs px-2 py-1 rounded">
+            {discount}
+          </div>
+        )}
+      </div>
+      <h3 className="text-xs font-medium mb-2 truncate">{title}</h3>
+      <div className="text-sm font-bold text-gray-900">{price}</div>
+      {originalPrice && (
+        <div className="text-xs text-gray-500 line-through">{originalPrice}</div>
+      )}
+    </div>
+  )
+}
+
+// Power Product Component
+function PowerProduct({ title, price, discount, badge, image }) {
+  return (
+    <div className="bg-white border rounded p-3 hover:shadow-md cursor-pointer">
+      <div className="relative">
+        <div className="w-full h-32 bg-gray-100 rounded mb-2 flex items-center justify-center">
+          <img src={image} alt={title} className="max-w-full max-h-full object-contain" />
+        </div>
+        {badge && (
+          <div className="absolute top-2 left-2 bg-blue-500 text-white text-xs px-2 py-1 rounded">
+            {badge}
+          </div>
+        )}
+        {discount && (
+          <div className="absolute top-2 right-2 bg-orange-500 text-white text-xs px-2 py-1 rounded">
+            {discount}
+          </div>
+        )}
+      </div>
+      <h3 className="text-xs font-medium mb-2 truncate">{title}</h3>
+      <div className="text-sm font-bold text-gray-900">{price}</div>
+    </div>
+  )
+}
+
+// Bar Product Component
+function BarProduct({ title, price, originalPrice, discount, image }) {
+  return (
+    <div className="bg-white border rounded p-3 hover:shadow-md cursor-pointer">
+      <div className="relative">
+        <div className="w-full h-32 bg-gray-100 rounded mb-2 flex items-center justify-center">
+          <img src={image} alt={title} className="max-w-full max-h-full object-contain" />
+        </div>
+        {discount && (
+          <div className="absolute top-2 right-2 bg-red-500 text-white text-xs px-2 py-1 rounded">
+            {discount}
+          </div>
+        )}
+      </div>
+      <h3 className="text-xs font-medium mb-2 truncate">{title}</h3>
+      <div className="text-sm font-bold text-gray-900">{price}</div>
+      {originalPrice && (
+        <div className="text-xs text-gray-500 line-through">{originalPrice}</div>
+      )}
     </div>
   )
 }
