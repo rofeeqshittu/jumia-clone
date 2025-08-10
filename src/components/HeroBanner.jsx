@@ -35,13 +35,13 @@ function HeroBanner() {
         </div>
         <div className="flex space-x-4">
           <div className="w-24 h-32 bg-blue-300 rounded-lg flex items-center justify-center">
-            <img src="/api/placeholder/80/120" alt="Product" className="rounded" />
+            <img src="https://picsum.photos/80/120?random=201" alt="Product" className="rounded" />
           </div>
           <div className="w-24 h-32 bg-yellow-300 rounded-lg flex items-center justify-center">
-            <img src="/api/placeholder/80/120" alt="Product" className="rounded" />
+            <img src="https://picsum.photos/80/120?random=202" alt="Product" className="rounded" />
           </div>
           <div className="w-24 h-32 bg-pink-300 rounded-lg flex items-center justify-center">
-            <img src="/api/placeholder/80/120" alt="Product" className="rounded" />
+            <img src="https://picsum.photos/80/120?random=203" alt="Product" className="rounded" />
           </div>
         </div>
       </div>

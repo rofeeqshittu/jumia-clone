@@ -64,42 +64,42 @@ export const promoTiles = [
   {
     title: "Awoof Deals",
     subtitle: "",
-    img: "/api/placeholder/80/80",
+    img: "https://via.placeholder.com/80x80/f68b1e/ffffff?text=Awoof",
   },
   {
     title: "Up to 80% Off",
     subtitle: "",
-    img: "/api/placeholder/80/80",
+    img: "https://via.placeholder.com/80x80/ff4444/ffffff?text=80%25",
   },
   {
     title: "Send Packages Securely",
     subtitle: "",
-    img: "/api/placeholder/80/80",
+    img: "https://via.placeholder.com/80x80/4CAF50/ffffff?text=📦",
   },
   {
     title: "New Arrival",
     subtitle: "",
-    img: "/api/placeholder/80/80",
+    img: "https://via.placeholder.com/80x80/2196F3/ffffff?text=NEW",
   },
   {
     title: "Earn While You Shop",
     subtitle: "",
-    img: "/api/placeholder/80/80",
+    img: "https://via.placeholder.com/80x80/FF9800/ffffff?text=💰",
   },
   {
     title: "Unlock Your Deal",
     subtitle: "",
-    img: "/api/placeholder/80/80",
+    img: "https://via.placeholder.com/80x80/9C27B0/ffffff?text=🔓",
   },
   {
     title: "Banger deals",
     subtitle: "",
-    img: "/api/placeholder/80/80",
+    img: "https://via.placeholder.com/80x80/f68b1e/ffffff?text=BANG",
   },
   {
     title: "Sporting Goods",
     subtitle: "",
-    img: "/api/placeholder/80/80",
+    img: "https://via.placeholder.com/80x80/607D8B/ffffff?text=⚽",
   },
 ]
 
@@ -110,7 +110,7 @@ export const productsFlash = [
     price: 104315,
     oldPrice: 184316,
     discount: 43,
-    image: "/api/placeholder/240/240",
+    image: "https://picsum.photos/240/240?random=1",
     itemsLeft: 19,
   },
   {
@@ -119,7 +119,7 @@ export const productsFlash = [
     price: 6100,
     oldPrice: 6369,
     discount: 4,
-    image: "/api/placeholder/240/240",
+    image: "https://picsum.photos/240/240?random=2",
     itemsLeft: 100,
   },
   {
@@ -128,7 +128,7 @@ export const productsFlash = [
     price: 124950,
     oldPrice: 127158,
     discount: 2,
-    image: "/api/placeholder/240/240",
+    image: "https://picsum.photos/240/240?random=3",
     itemsLeft: 29,
   },
   {
@@ -137,7 +137,7 @@ export const productsFlash = [
     price: 76999,
     oldPrice: 81000,
     discount: 5,
-    image: "/api/placeholder/240/240",
+    image: "https://picsum.photos/240/240?random=4",
     itemsLeft: 50,
   },
   {
@@ -146,7 +146,7 @@ export const productsFlash = [
     price: 359900,
     oldPrice: 432000,
     discount: 17,
-    image: "/api/placeholder/240/240",
+    image: "https://picsum.photos/240/240?random=5",
     itemsLeft: 99,
   },
   {
@@ -155,7 +155,7 @@ export const productsFlash = [
     price: 136960,
     oldPrice: 137340,
     discount: 1,
-    image: "/api/placeholder/240/240",
+    image: "https://picsum.photos/240/240?random=6",
     itemsLeft: 97,
   },
 ]
@@ -165,13 +165,13 @@ export const productsTopSellers = [
     id: "t1",
     title: 'Hikers 32" Inches Frameless LED TV',
     price: 124192,
-    image: "/api/placeholder/240/240",
+    image: "https://picsum.photos/240/240?random=11",
   },
   {
     id: "t2",
     title: "Ace Elec 20000 MAh Ultra Slim Portable Power Bank",
     price: 7294,
-    image: "/api/placeholder/240/240",
+    image: "https://picsum.photos/240/240?random=12",
   },
   {
     id: "t3",
@@ -179,7 +179,7 @@ export const productsTopSellers = [
     price: 701392,
     oldPrice: 3518400,
     discount: 80,
-    image: "/api/placeholder/240/240",
+    image: "https://picsum.photos/240/240?random=13",
   },
   {
     id: "t4",
@@ -187,19 +187,19 @@ export const productsTopSellers = [
     price: 89999,
     oldPrice: 120590,
     discount: 25,
-    image: "/api/placeholder/240/240",
+    image: "https://picsum.photos/240/240?random=14",
   },
   {
     id: "t5",
     title: "Samsung Galaxy Note 10+ 256GB - Aura Black",
     price: 325000,
-    image: "/api/placeholder/240/240",
+    image: "https://picsum.photos/240/240?random=15",
   },
   {
     id: "t6",
     title: 'XIAOMI Redmi A3x 6.71" 3GB RAM/64GB ROM',
     price: 88316,
-    image: "/api/placeholder/240/240",
+    image: "https://picsum.photos/240/240?random=16",
   },
 ]
 
@@ -208,7 +208,7 @@ export const productsPhoneAccessories = [
     id: "pa1",
     title: "Ace Elec 20000 MAh Ultra Slim Portable Power Bank",
     price: 7294,
-    image: "/api/placeholder/240/240",
+    image: "https://picsum.photos/240/240?random=21",
   },
   {
     id: "pa2",
@@ -216,7 +216,7 @@ export const productsPhoneAccessories = [
     price: 7104,
     oldPrice: 13744,
     discount: 48,
-    image: "/api/placeholder/240/240",
+    image: "https://picsum.photos/240/240?random=22",
   },
   {
     id: "pa3",
@@ -224,7 +224,7 @@ export const productsPhoneAccessories = [
     price: 13488,
     oldPrice: 29904,
     discount: 55,
-    image: "/api/placeholder/240/240",
+    image: "https://picsum.photos/240/240?random=23",
   },
   {
     id: "pa4",
@@ -232,13 +232,13 @@ export const productsPhoneAccessories = [
     price: 7392,
     oldPrice: 8896,
     discount: 17,
-    image: "/api/placeholder/240/240",
+    image: "https://picsum.photos/240/240?random=24",
   },
   {
     id: "pa5",
     title: "XIAOMI Redmi Buds 6 Active Wireless Earbuds",
     price: 20341,
-    image: "/api/placeholder/240/240",
+    image: "https://picsum.photos/240/240?random=25",
   },
   {
     id: "pa6",
@@ -246,7 +246,7 @@ export const productsPhoneAccessories = [
     price: 7999,
     oldPrice: 12561,
     discount: 36,
-    image: "/api/placeholder/240/240",
+    image: "https://picsum.photos/240/240?random=26",
   },
 ]
 
@@ -257,14 +257,14 @@ export const productsShoes = [
     price: 4200,
     oldPrice: 4396,
     discount: 65,
-    image: "/api/placeholder/240/240",
+    image: "https://picsum.photos/240/240?random=31",
   },
   {
     id: "s2",
     title: "Women Shoes For Women Casual Sneakers",
     price: 4426,
     discount: 25,
-    image: "/api/placeholder/240/240",
+    image: "https://picsum.photos/240/240?random=32",
   },
   {
     id: "s3",
@@ -272,7 +272,7 @@ export const productsShoes = [
     price: 4540,
     oldPrice: 5295,
     discount: 44,
-    image: "/api/placeholder/240/240",
+    image: "https://picsum.photos/240/240?random=33",
   },
   {
     id: "s4",
@@ -280,21 +280,21 @@ export const productsShoes = [
     price: 4680,
     oldPrice: 5136,
     discount: 53,
-    image: "/api/placeholder/240/240",
+    image: "https://picsum.photos/240/240?random=34",
   },
   {
     id: "s5",
     title: "FUXING FASHION Women's Canvas Shoes",
     price: 5635,
     discount: 4,
-    image: "/api/placeholder/240/240",
+    image: "https://picsum.photos/240/240?random=35",
   },
   {
     id: "s6",
     title: "Mateamoda Men Shoes Casual Sneakers",
     price: 5665,
     discount: 25,
-    image: "/api/placeholder/240/240",
+    image: "https://picsum.photos/240/240?random=36",
   },
 ]
 
@@ -316,17 +316,17 @@ export const heroSlides = [
   {
     id: 1,
     title: "Must-have Clothing Sale",
-    img: "/api/placeholder/960/420",
+    img: "https://picsum.photos/960/420?random=100",
   },
   {
     id: 2,
     title: "Power Boost",
-    img: "/api/placeholder/960/420",
+    img: "https://picsum.photos/960/420?random=101",
   },
   {
     id: 3,
     title: "Flash Sales",
-    img: "/api/placeholder/960/420",
+    img: "https://picsum.photos/960/420?random=102",
   },
 ]
 

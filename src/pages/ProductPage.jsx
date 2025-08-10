@@ -15,19 +15,19 @@ function ProductPage() {
           <div className="space-y-4">
             {/* Main Image */}
             <div className="w-full h-96 bg-gray-100 rounded-lg flex items-center justify-center">
-              <img src="/api/placeholder/400/400" alt="Product" className="max-w-full max-h-full object-contain" />
+              <img src="https://picsum.photos/400/400?random=500" alt="Product" className="max-w-full max-h-full object-contain" />
             </div>
             
             {/* Thumbnail Images */}
             <div className="flex space-x-2">
               <div className="w-16 h-16 bg-gray-100 rounded border cursor-pointer">
-                <img src="/api/placeholder/60/60" alt="Thumbnail" className="w-full h-full object-cover rounded" />
+                <img src="https://picsum.photos/60/60?random=501" alt="Thumbnail" className="w-full h-full object-cover rounded" />
               </div>
               <div className="w-16 h-16 bg-gray-100 rounded border cursor-pointer">
-                <img src="/api/placeholder/60/60" alt="Thumbnail" className="w-full h-full object-cover rounded" />
+                <img src="https://picsum.photos/60/60?random=502" alt="Thumbnail" className="w-full h-full object-cover rounded" />
               </div>
               <div className="w-16 h-16 bg-gray-100 rounded border cursor-pointer">
-                <img src="/api/placeholder/60/60" alt="Thumbnail" className="w-full h-full object-cover rounded" />
+                <img src="https://picsum.photos/60/60?random=503" alt="Thumbnail" className="w-full h-full object-cover rounded" />
               </div>
             </div>
           </div>

@@ -8,7 +8,7 @@ function ProductCard({
   price = 10000, 
   oldPrice, 
   discount, 
-  image = "/api/placeholder/200/200",
+  image = "https://picsum.photos/200/200?random=999",
   itemsLeft 
 }) {
   const progressPercentage = typeof itemsLeft === "number" ? 
