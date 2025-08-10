@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Layout from './components/Layout-new'
-import Home from './pages/Home-refactored'
+import Layout from './components/Layout'
+import Home from './pages/Home'
 import CategoryPage from './pages/CategoryPage'
 import ProductPage from './pages/ProductPage'
 import CartPage from './pages/CartPage'

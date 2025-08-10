@@ -1,6 +1,7 @@
 import CategorySidebar from '../components/CategorySidebar'
 import HeroBanner from '../components/HeroBanner'
 import ProductCarousel from '../components/ProductCarousel'
+import PromoTiles from '../components/PromoTiles'
 import Section from '../components/Section'
 import { Card, CardContent } from '../components/ui/Card'
 import { 
@@ -26,6 +27,8 @@ function Home() {
         {/* Main Content */}
         <div className="flex-1">
           <HeroBanner />
+          
+          <PromoTiles />
           
           <ProductCarousel 
             title="Flash Sales" 
