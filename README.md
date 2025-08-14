@@ -21,7 +21,7 @@ A simple e-commerce frontend clone built with React and Tailwind CSS for the Dig
 
 1. Clone the repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/rofeeqshittu/jumia-clone
 cd jumai-clone
 ```
 
@@ -83,4 +83,4 @@ src/
 
 ## License
 
-This project is for educational purposes.
+MIT LICENSE
